@@ -1,0 +1,30 @@
+# Private key dan kredensial
+key-k2.pem
+*.key
+.env
+.env.*
+
+# Capture Wi-Fi
+*.cap
+*.pcap
+*.pcapng
+*.kismet.csv
+*.kismet.netxml
+*.log.csv
+handshake-k2-*
+
+# Wordlist dan file laporan pribadi
+wordlist-k2.txt
+laporan-k2.txt
+hasil-k2.txt
+
+# File sementara
+*.tmp
+*.bak
+__pycache__/
+
+# Data praktikum yang tidak dipublikasikan
+cert-k2.pem
+dns-k2.log
+laporan-k2.enc
+*.pem
